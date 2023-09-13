@@ -1,0 +1,3 @@
+administer migrate_source_mongo_location:
+  title: 'Administer locations'
+  restrict access: true

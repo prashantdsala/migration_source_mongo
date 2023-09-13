@@ -1,0 +1,11 @@
+entity.migrate_source_mongo_location.settings:
+  title: 'Location'
+  description: 'Configure a Location entity type.'
+  route_name:  entity.migrate_source_mongo_location.settings
+  parent: system.admin_structure
+
+entity.migrate_source_mongo_location.collection:
+  title: 'Locations'
+  description: 'List of locations.'
+  route_name: entity.migrate_source_mongo_location.collection
+  parent: system.admin_content

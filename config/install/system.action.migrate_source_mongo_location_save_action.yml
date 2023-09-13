@@ -1,0 +1,10 @@
+langcode: en
+status: true
+dependencies:
+  module:
+    - migrate_source_mongo
+id: migrate_source_mongo_location_save_action
+label: 'Save locations'
+type: migrate_source_mongo_location
+plugin: entity:save_action:migrate_source_mongo_location
+configuration: {  }

@@ -1,0 +1,5 @@
+migrate_source_mongo_location.add_form:
+  title: 'Add location'
+  route_name: entity.migrate_source_mongo_location.add_form
+  appears_on:
+    - entity.migrate_source_mongo_location.collection

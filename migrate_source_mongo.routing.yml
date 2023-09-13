@@ -1,0 +1,7 @@
+entity.migrate_source_mongo_location.settings:
+  path: 'admin/structure/migrate-source-mongo-location'
+  defaults:
+    _form: '\Drupal\migrate_source_mongo\Form\LocationSettingsForm'
+    _title: 'Location'
+  requirements:
+    _permission: 'administer migrate_source_mongo_location'
